@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-principal);
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+:root {
+  --text-principal: #ffffff;
+  --background-primary: #000000;
+  --background-secondary: #333333;
+  --color-highlight: #5d4037;
+  --color-highlight-sec: #046307;
+  --buts-a: #d4af37;
+}
+
+body {
+  background-image: url(../imagenes/inicio.jpg);
+  background-size: cover;
+}
+
+main {
+  height: 90vh;
+  max-width: 100%;
+  display: flex;
+  color: var(--text-principal);
+}
+
+.btn {
+  /* background-color: var(--buts-a); */
+  padding: 10px 30px;
+  border: 2px solid var(--buts-a);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 3px 3px 5px var(--buts-a);
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: var(--background-secondary);
+  color: var(--text-principal);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header img {
+  height: 70px;
+  /* border: 1px red solid; */
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 250px;
+}
+
+.inicio a {
+  display: flex;
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: 500;
+}
